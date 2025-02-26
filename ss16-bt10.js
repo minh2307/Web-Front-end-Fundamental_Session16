@@ -8,5 +8,6 @@ if(firstNumber < secondNumber){
 }
 let signal = firstNumber - secondNumber;
 let variable = Math.random() * signal;
+alert(variable);
 let ramdom = variable + secondNumber;
-alert(`số ngẫu nhiên nằm trong ${secondNumber}, ${firstNumber} : ${Math.round(ramdom)}`);
+alert(`số ngẫu nhiên nằm trong ${secondNumber}, ${firstNumber} : ${ramdom.toFixed(2)}`);

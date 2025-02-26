@@ -5,8 +5,10 @@ let compare;
 if(fistNumber > secondNumber > thirdNumber){
     compare = fistNumber;
 }
-if(fistNumber < secondNumber < thirdNumber){
+else if(fistNumber < secondNumber < thirdNumber){
     compare = thirdNumber;
 }
+else{
     compare = secondNumber;
+}
     document.write(`Số lớn nhất là ${compare}`);
